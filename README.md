@@ -2,7 +2,7 @@
 
 **Your AI Legal, Financial, Corporate, and Business Consultant**
 
-BuziBuddy is an AI-powered Retrieval-Augmented Generation (RAG) chatbot that provides accessible business, financial, tax, and legal advisory support tailored to the Nepali context. Instead of relying solely on a language model's pre-trained knowledge, BuziBuddy retrieves answers from a curated knowledge base of verified Nepali legal and financial documents — reducing hallucination and improving reliability in advisory scenarios.
+BuziBuddy is an AI-powered Retrieval-Augmented Generation (RAG) chatbot that provides accessible business, financial, tax, and legal advisory support tailored to the Nepali context. Instead of relying solely on a language model's pre-trained knowledge, BuziBuddy retrieves answers from a curated knowledge base of verified Nepali legal and financial documents reducing hallucination and improving reliability in advisory scenarios.
 
 
 ---
@@ -116,7 +116,7 @@ Create a `.env` file in the backend directory with:
 ```env
 PINECONE_API_KEY=your_pinecone_key
 OPENROUTER_API_KEY=your_openrouter_key
-N8N_WEBHOOK_URL=http://localhost:5678/webhook/buzibuddy-frontend-connect
+N8N_WEBHOOK_URL=http://localhost:****/webhook/buzibuddy-frontend-connect
 ```
 
 ### Running Locally
